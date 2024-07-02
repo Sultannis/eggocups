@@ -4,7 +4,27 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
+      <div className={styles.header}>
+        <div className={styles.headerInner}>
+          <Image
+            src="/eggocups.svg"
+            alt="Eggocups Logo"
+            className={styles.eggocupsLogo}
+            width={200}
+            height={48}
+          />
+          <div className={styles.cart}>
+            <Image
+              src="/cart.svg"
+              alt="Cart"
+              width={30}
+              height={30}
+            />
+            <div className={styles.cartItemsCounter}>1</div>
+          </div>
+        </div>
+      </div>
+      {/* <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
           <code className={styles.code}>src/app/page.tsx</code>
@@ -26,9 +46,9 @@ export default function Home() {
             />
           </a>
         </div>
-      </div>
+      </div> */}
 
-      <div className={styles.center}>
+      {/* <div className={styles.center}>
         <Image
           className={styles.logo}
           src="/next.svg"
@@ -37,9 +57,9 @@ export default function Home() {
           height={37}
           priority
         />
-      </div>
+      </div> */}
 
-      <div className={styles.grid}>
+      {/* <div className={styles.grid}>
         <a
           href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           className={styles.card}
@@ -89,7 +109,7 @@ export default function Home() {
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
-      </div>
+      </div> */}
     </main>
   );
 }
