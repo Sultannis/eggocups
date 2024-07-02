@@ -1,0 +1,14 @@
+.card {
+    min-height: 420px;
+    padding: 15px;
+    color: #616161;
+    border-radius: 20px;
+    background-color: #EAEAEA;
+}
+
+.card .title {
+    margin-top: 5px;
+    margin-bottom: 7px;
+    font-size: 30px;
+    font-weight: 600;
+}

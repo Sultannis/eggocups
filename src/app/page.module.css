@@ -10,8 +10,8 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  padding-right: 12rem;
-  padding-left: 12rem;
+  padding-right: 9.5rem;
+  padding-left: 9.5rem;
   background-color: #ffffff;
 }
 
@@ -51,6 +51,25 @@
   text-align: center;
   border-radius: 10px;
   background-color: #00B633;
+}
+
+.body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 30px;
+  padding-right: 9.5rem;
+  padding-left: 9.5rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(390px, auto));
+  gap: 20px;
+  max-width: 100%;
+  width: 100%;
 }
 
 
@@ -93,7 +112,7 @@
   width: var(--max-width);
 }
 
-.card {
+/* .card {
   padding: 1rem 1.2rem;
   border-radius: var(--border-radius);
   background: rgba(var(--card-rgb), 0);
@@ -118,7 +137,7 @@
   line-height: 1.5;
   max-width: 30ch;
   text-wrap: balance;
-}
+} */
 
 .center {
   display: flex;
@@ -186,13 +205,13 @@
     text-align: center;
   }
 
-  .card {
+  /* .card {
     padding: 1rem 2.5rem;
   }
 
   .card h2 {
     margin-bottom: 0.5rem;
-  }
+  } */
 
   .center {
     padding: 8rem 0 6rem;

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Card from "./components/card";
 
 export default function Home() {
   return (
@@ -22,6 +23,13 @@ export default function Home() {
             />
             <div className={styles.cartItemsCounter}>1</div>
           </div>
+        </div>
+      </div>
+      <div className={styles.body}>
+        <div className={styles.cards}>
+          <Card />
+          <Card />
+          <Card />
         </div>
       </div>
       {/* <div className={styles.description}>
