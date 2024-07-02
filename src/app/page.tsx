@@ -32,6 +32,14 @@ export default function Home() {
           <Card />
         </div>
       </div>
+      <div className={styles.footer}>
+        <div className={styles.footerInner}>
+          <div className={styles.footerTitle}>About</div>
+          <a className={styles.footerLink} href="#">About us</a>
+          <a className={styles.footerLink} href="#">Delivery</a>
+          <a className={styles.footerLink} href="#">Privacy Policy</a>
+        </div>
+      </div>
       {/* <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
