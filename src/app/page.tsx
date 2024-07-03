@@ -13,6 +13,7 @@ export default function Home() {
             className={styles.eggocupsLogo}
             width={200}
             height={48}
+            priority
           />
           <div className={styles.cart}>
             <Image
